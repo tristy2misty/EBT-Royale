@@ -1,1 +1,5 @@
-Not Found
+pip install pygame numpy
+python main.py  # Single-player
+python server.py & python client.py  # Multiplayer (LAN)
+pip install pyinstaller
+pyinstaller --onefile --windowed --add-data "sprites/*;sprites/" main.py
