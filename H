@@ -1,7 +1,0 @@
-# Check if files are tracked
-git status
-
-# If files are untracked, add them:
-git add .
-git commit -m "Add all game files"
-git push origin main
