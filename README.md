@@ -22,3 +22,5 @@
    pip install pygame numpy
    python main.py  # Single-player
 python server.py & python client.py  # Multiplayer (LAN)
+python main.py  # Single-player
+python server.py & python client.py  # Multiplayer (LAN)
