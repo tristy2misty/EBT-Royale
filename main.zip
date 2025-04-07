@@ -3,3 +3,8 @@ python main.py  # Single-player
 python server.py & python client.py  # Multiplayer (LAN)
 pip install pyinstaller
 pyinstaller --onefile --windowed --add-data "sprites/*;sprites/" main.py
+git clone https://github.com/yourusername/EBT-Royale.git
+cd EBT-Royale
+git add .
+git commit -m "Initial alpha release"
+git push origin main
